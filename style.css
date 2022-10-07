@@ -12,7 +12,8 @@ h1,h2,h3,h4 {
   }
 
 p{
-    font-size:18px;
+    font-size:20px;
+    line-height: 24px;
 }
 
 a {
@@ -20,22 +21,14 @@ a {
 }
 
 .header {
-  height: 500px;
   padding: 30px 30px 30px;
 }
 
-.header-left{
+.header-left, .header-right{
     display:block;
-    width:60%;
+    width:50%;
     float:left;
 }
-
-.header-right{
-    display:block;
-    width:40%;
-    float:left;
-}
-
 
 
 .header h1 {
@@ -47,10 +40,11 @@ a {
   margin-bottom:15px;
   }
 
+
+
+/* ------ Assignment -----------*/
+
 .assignment {
-  font-size: 12px;
-  line-height: 24px;
-  font-family: 'helvetica', 'arial', 'sans';
   padding: 20px 20px 20px 30px;
   width: 250px;
   height: 350px;
