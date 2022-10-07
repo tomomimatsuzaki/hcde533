@@ -56,29 +56,19 @@ a {
 }
 
 .assignment {
-  width: 50%;
+  width: 33.33%;
   height: auto;
+  padding-right:30px;
   float: left;
 }
 
-.assignment-left{
+.assignment-description{
     display:block;
-    overflow:hidden;
-    width:50%;
-    float:left;
-}
-
-.assignment-right{
-    display:block;
-    overflow:hidden;
-    width:50%;
-    float:left;
-    padding-right:30px;
+    margin-top:15px;
 }
 
 .button{
     display:inline-block;
-    width:200px;
     padding:15px 20px;
     border-radius: 6px;
     background:black;
