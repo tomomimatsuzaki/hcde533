@@ -20,7 +20,7 @@ a {
   color: #000;
 }
 
-.header {
+.header{
     display:block;
     height:auto;
     width:100%;
@@ -47,11 +47,18 @@ a {
 
 
 /* ------ Assignment -----------*/
+.assignments{
+    display:block;
+    height:auto;
+    width:100%;
+    padding: 30px 30px 30px;
+    overflow:hidden;
+}
 
 .assignment {
-  padding: 20px 20px 20px 30px;
+  margin-right:30px;
   width: 250px;
-  height: 350px;
+  height: auto;
   float: left;
 }
 
