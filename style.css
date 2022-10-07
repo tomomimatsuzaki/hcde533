@@ -56,10 +56,26 @@ a {
 }
 
 .assignment {
-  margin-right:30px;
-  width: 250px;
+  padding-right:30px;
+  width: 50%;
   height: auto;
   float: left;
+}
+
+.assignment-half{
+    display:block;
+    overflow:hidden;
+    width:50%;
+    float:left;
+}
+
+.button{
+    display:inline-block;
+    width:200px;
+    padding:15px 20px;
+    border-radius: 6px;
+    background:black;
+    color:#ffffff;
 }
 
 .assignment a {
