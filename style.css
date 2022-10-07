@@ -34,6 +34,10 @@ a {
     float:left;
 }
 
+.header-right{
+    text-align:center;  
+}
+
 
 .header h1 {
   font-size: 75px;
@@ -45,7 +49,10 @@ a {
   margin-bottom:15px;
   }
 
-
+.profile-image{
+    max-width:400px;
+    display:inline-block;
+}
 
 /* ------ Assignment -----------*/
 .assignments{
