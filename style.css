@@ -72,8 +72,15 @@ a {
     display:inline-block;
     padding:15px 20px;
     border-radius: 6px;
-    background:black;
-    color:#ffffff;
+    background:#121111;
+    color:#efe6dd;
+    border: 1px solid #121111;
+}
+
+.button:hover{
+    background:#efe6dd;
+    color:#121111;
+    border: 1px solid #121111;
 }
 
 .assignment a {
