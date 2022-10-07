@@ -95,14 +95,14 @@ a {
 }
 
 
-.footer {
+footer {
     display:block;
     overflow:hidden;
     width: 100%;
     padding: 15px 0px 15px 0px;
 }
 
-.footer p{
+footer p{
     text-align: center;
     font-size:13px;
 }
