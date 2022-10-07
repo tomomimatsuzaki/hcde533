@@ -56,17 +56,24 @@ a {
 }
 
 .assignment {
-  padding-right:30px;
   width: 50%;
   height: auto;
   float: left;
 }
 
-.assignment-half{
+.assignment-left{
     display:block;
     overflow:hidden;
     width:50%;
     float:left;
+}
+
+.assignment-right{
+    display:block;
+    overflow:hidden;
+    width:50%;
+    float:left;
+    padding-right:30px;
 }
 
 .button{
