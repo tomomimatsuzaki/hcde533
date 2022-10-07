@@ -56,10 +56,10 @@ a {
 }
 
 .assignment {
-  width: 33.33%;
-  height: auto;
-  padding-right:30px;
-  float: left;
+    width: 30%;
+    height: auto;
+    padding-right: 3.33%;
+    float: left;
 }
 
 .assignment-description{
