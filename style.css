@@ -30,8 +30,8 @@ a {
 
 .header-left, .header-right{
     display:block;
-    width:50%;
-    float:left;
+    width: 100%;
+    max-width:500px;
 }
 
 .header-right{
