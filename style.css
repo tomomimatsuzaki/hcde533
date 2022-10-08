@@ -56,12 +56,18 @@ a {
 
 .scroll{
     display:block;
+    margin-top:30px;
 }
 
 .scroll img{
     display:block;
     margin:0 auto;
 }
+
+.scroll img:hover{
+    opacity:70%;
+}
+
 
 /* ------ Assignment -----------*/
 .assignments{
