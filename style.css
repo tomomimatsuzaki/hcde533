@@ -63,6 +63,10 @@ a {
     overflow:hidden;
 }
 
+.assignments h2{
+    text-align: center;
+}
+
 .assignment {
     width: 30%;
     height: auto;
