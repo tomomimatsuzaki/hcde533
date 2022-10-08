@@ -67,6 +67,7 @@ a {
 
 .scroll img:hover{
     opacity:70%;
+    transition:.5s;
 }
 
 
@@ -123,6 +124,19 @@ a {
   color: #F06;
   text-decoration: none;
 }
+
+
+@media screen and (max-width: 768px){
+    .assignment{
+        width:100%;
+        padding-right:0;
+        float:none;
+    }
+}
+
+
+
+/* -----footer -------- */
 
 
 footer {
