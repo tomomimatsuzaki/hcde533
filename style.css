@@ -164,3 +164,15 @@ footer p{
   text-decoration: none;
 }
 
+
+
+
+/* --------- Assignment page ------------ */
+.process{
+    display:block;
+    width:100%;
+    max-width:960px;
+    padding:0 30px;
+}
+
+
