@@ -80,7 +80,9 @@ a {
 }
 
 .button{
-    display:inline-block;
+    display:block;
+    width:200px;
+    margin:0 auto;
     padding:15px 20px;
     border-radius: 6px;
     background:#121111;
