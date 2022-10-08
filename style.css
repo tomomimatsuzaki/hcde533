@@ -50,8 +50,8 @@ a {
   }
 
 .profile-image{
-    max-width:400px;
-    display:inline-block;
+    max-width:250px;
+    display:block;
 }
 
 /* ------ Assignment -----------*/
