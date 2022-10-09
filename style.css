@@ -131,7 +131,10 @@ a {
 }
 
 .step img{
+    width:45%;
     float:left;
+    margin-right: 30px;
+    margin-bottom: 30px;
 }
 
 
