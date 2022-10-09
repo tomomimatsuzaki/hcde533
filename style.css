@@ -104,6 +104,10 @@ a {
     margin-top:15px;
 }
 
+.assignment-description p{
+    text-align: center;
+}
+
 .button{
     display:block;
     width:200px;
