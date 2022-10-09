@@ -124,6 +124,16 @@ a {
   text-decoration: none;
 }
 
+.step{
+    display:block;
+    width:100%;
+    overflow:hidden;
+}
+
+.step img{
+    float:left;
+}
+
 
 @media screen and (max-width: 768px){
     .assignment{
