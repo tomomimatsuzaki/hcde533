@@ -124,42 +124,6 @@ a {
   text-decoration: none;
 }
 
-.step{
-    display:block;
-    width:100%;
-    overflow:hidden;
-    margin-bottom:60px;
-}
-
-.step img{
-    width:45%;
-    float:left;
-    margin-right: 30px;
-    margin-bottom: 30px;
-}
-
-.step ul{
-    list-style: none;
-}
-
-
-@media screen and (max-width: 768px){
-    .assignment{
-        width:100%;
-        padding-right:0;
-        float:none;
-    }
-    
-    .step img{
-    width:100%;
-    float:none;
-    margin-right: 0;
-    margin-bottom: 15px;
-    }
-}
-
-
-
 /* -----footer -------- */
 
 
@@ -204,5 +168,40 @@ footer p{
 .process h2{
     margin-top:60px;
 }
+
+.step{
+    display:block;
+    width:100%;
+    overflow:hidden;
+    margin-bottom:60px;
+}
+
+.step img{
+    width:45%;
+    float:left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.step ul{
+    list-style: none;
+}
+
+
+@media screen and (max-width: 768px){
+    .assignment{
+        width:100%;
+        padding-right:0;
+        float:none;
+    }
+    
+    .step img{
+    width:100%;
+    float:none;
+    margin-right: 0;
+    margin-bottom: 15px;
+    }
+}
+
 
 
