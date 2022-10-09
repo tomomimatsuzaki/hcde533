@@ -138,6 +138,10 @@ a {
     margin-bottom: 30px;
 }
 
+.step ul{
+    margin-left:30px;
+}
+
 
 @media screen and (max-width: 768px){
     .assignment{
