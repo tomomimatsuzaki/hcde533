@@ -107,7 +107,7 @@ a {
 .button{
     display:block;
     width:200px;
-    margin:0 auto;
+    margin:15px auto;
     padding:15px 20px;
     border-radius: 6px;
     background:#121111;
