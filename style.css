@@ -183,6 +183,11 @@ footer p{
     margin-bottom: 30px;
 }
 
+.step h3{
+    margin-top:15px;
+    margin-bottom: 15px;
+    }
+
 .step ul{
     list-style: none;
 }
