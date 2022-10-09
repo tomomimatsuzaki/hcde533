@@ -201,6 +201,10 @@ footer p{
     margin-right: 0;
     margin-bottom: 0;
     }
+    
+    .step h3{
+        margin-top:15px;
+    }
 }
 
 
