@@ -205,6 +205,11 @@ footer p{
     list-style: none;
 }
 
+.space-block{
+    display:block;
+    height: 30px;
+    overflow:hidden;
+}
 
 @media screen and (max-width: 768px){
     .assignment{
