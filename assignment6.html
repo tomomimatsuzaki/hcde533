@@ -1,0 +1,113 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, maximum-scale=1.0" />
+
+        <title>Tomomi Matsuzaki | HCDE 533 Digital Fabrication Assignment 1</title> 
+
+        <link href="style.css" media="screen" rel="stylesheet" type="text/css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;600&family=Lato:wght@300&display=swap" rel="stylesheet">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+        $(document).ready(function(){
+          // Add smooth scrolling to all links
+          $("a").on('click', function(event) {
+
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+              // Prevent default anchor click behavior
+              event.preventDefault();
+
+              // Store hash
+              var hash = this.hash;
+
+              // Using jQuery's animate() method to add smooth page scroll
+              // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+              $('html, body').animate({
+                scrollTop: $(hash).offset().top
+              }, 800, function(){
+
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              });
+            } // End if
+          });
+        });
+        </script>
+    </head> 
+    <body> 
+
+        <div class="header">
+            <h1>Designing Lamps</h1>
+            <h2>HCDE533 Assignment 6</h2>
+        </div>
+        
+        <div class="process">
+            <img src="images/a5-thumbnail.png" width=100%>
+            <h2>Instruction</h2>
+            <p>Please make a lamp! Using your lamp innereds' measurements as a point of departure, make a lamp that can be assembled around the innereds out of 3D printed parts. You should be able to remove the lamp from the innereds again, so you cannot attach the lamp to the innereds with glue, fasteners, adhesive, etc.  Imagine your lamp being in a domestic setting---perhaps it will not be wildly shaken, but it should not fall apart with normal use. </p>
+            
+            <h2>Tools</h2>
+            <p>Rhino, Cura, Ender 3D Pro</p>
+            
+            
+            <h2>Process</h2>
+            
+            <div class="step">
+                <img src="images/a5-lamp-inspo.png">
+                <h3>Inspiration</h3>
+                <p></p>
+            </div>
+            
+            <div class="step">
+                <img src="images/a5-lamp-tutorial.png">
+                <h3>Watch Tutorial Videos</h3>
+                <p></p>
+                <ul>
+                    <li><a href="https://www.youtube.com/watch?v=xwizkRTN8bY" target="_blank">How to twist forms with Rhino</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=f_aksbwUTmM" target="_blank">Vase Design with Grasshopper</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=TT5a7HZxaE0" target="_blank">Creating a Tower in Grasshopper</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=AIy1Wfbk_tg&t=1266s" target="_blank">Rhino Grasshopper Comples Twist</a></li>
+                    <li><a href="" target="_blank">Parametric Vase - Grasshopper Tutorial</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=VJFh1HcbFHw" target="_blank">Create Pattern Vase</a></li>
+                </ul>
+            </div>
+            
+            <div class="step">
+                <img src="images/a5-lamp-measurement.png">
+                <h3>Take Measurement 1</h3>
+                <p></p>
+            </div>
+            
+            <div class="step">
+                <img src="images/a5-lamp-measurement2.png">
+                <h3>Take Measurement 2</h3>
+                <p>I took measurement again with a light bulb to make sure the lamp inard and bulb will completely be covered.</p>
+            </div>
+            
+            <div class="step">
+                <img src="images/a5-lamp-lid.png">
+                <h3>Lid Inspiration</h3>
+                <p></p>
+            </div>
+            
+            
+            
+            <a href="/hcde533/">
+                <div class="button">
+                    Back to Home
+                </div>
+            </a>
+        
+        </div>
+        
+        
+        <Footer>
+            <p>©2022 Website by Tomomi Matsuzaki</p>
+        </Footer>
+    </body>
+</html>
