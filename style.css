@@ -222,6 +222,11 @@ footer p{
     overflow:hidden;
 }
 
+table{
+    display: inline-block;
+    border-collapse: collapse;
+}
+
 @media screen and (max-width: 768px){
     .assignment{
         width:100%;
