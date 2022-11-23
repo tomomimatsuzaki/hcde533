@@ -225,7 +225,17 @@ footer p{
 table{
     display: inline-block;
     border-collapse: collapse;
+    text-align: left;
 }
+
+table th{
+    padding:10px;
+}
+
+table td{
+    padding:10px;
+}
+
 
 @media screen and (max-width: 768px){
     .assignment{
